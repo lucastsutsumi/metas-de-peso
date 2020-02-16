@@ -1,0 +1,36 @@
+body {
+	font-family: 'Sriracha', cursive;
+	margin-right: auto;
+	margin-left: auto;
+	width: 940px;
+}
+
+.header {
+	background-image: linear-gradient(to left, #30cfd0 0%, #330867 80%);
+	color: whitesmoke;
+	padding: 20px;
+	font-size: 40px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+
+.grupo {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: space-between;
+}
+
+label {
+	margin: 10px;
+}
+
+button {
+	width: 100px;
+	margin-top: 10px;
+}
